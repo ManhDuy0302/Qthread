@@ -1,5 +1,5 @@
-#🧵 Giới thiệu về QThread và đa luồng trong PyQt5
-#Trong lập trình GUI, nếu một tác vụ chạy lâu trong main thread (GUI thread) thì giao diện sẽ bị "đơ", không thể tương tác cho đến khi tác vụ kết thúc. Để tránh điều này, ta sử dụng QThread – một lớp cung cấp khả năng chạy code ở một luồng riêng biệt mà không làm ảnh hưởng đến giao diện chính.
+# 🧵 Giới thiệu về QThread và đa luồng trong PyQt5
+# Trong lập trình GUI, nếu một tác vụ chạy lâu trong main thread (GUI thread) thì giao diện sẽ bị "đơ", không thể tương tác cho đến khi tác vụ kết thúc. Để tránh điều này, ta sử dụng QThread – một lớp cung cấp khả năng chạy code ở một luồng riêng biệt mà không làm ảnh hưởng đến giao diện chính.
 
 PyQt5 cung cấp hai cách sử dụng QThread:
 
